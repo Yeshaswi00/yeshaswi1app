@@ -4,16 +4,16 @@ import React from 'react';
 import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Context from './Context';
-import First from './First';
+import Cocktail from './Cocktail';
+import Address from './Address';
 
 
 function App() {
-  var [x,setX]=React.useState(330)
+
   return (
     <div>
-   <Context.Provider value={x}/>
-   <First x={x}></First>
+   <Cocktail></Cocktail>
+   <Address></Address>
     </div>
     
   );
