@@ -4,18 +4,19 @@ import './App.css';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Todoo from './Todoo';
+import Todolist1 from './Todolist1';
+import Counter from'./Counter';
 
-import Products from './products';
-import Project from './projects';
-import Reviews from './review';
 function App() {
   
   return (
     <div>
       
-    <Products></Products>
-   <Project></Project>
-   <Reviews></Reviews>
+    <Todoo></Todoo>
+    <Todolist1></Todolist1>
+    <Counter></Counter>
+  
      
       
     </div>
